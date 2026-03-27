@@ -1,12 +1,11 @@
 # Discrete-Event-Sim
 
-A discrete-event simulation project for modelling patient flow and bed usage in a Critical Care Unit (CCU). The repository is organised around three main concerns:
+A discrete-event simulation project for modelling patient flow and bed usage in a Critical Care Unit (CCU).
 
-- **Model logic** in `model/`
-- **Probability distributions and empirical data helpers** in `distribution/`
-- **Testing, analysis, and reproducibility assets** in `test/`, `analysis/`, and `binder/`
-
-This README is based on the files visible in the `kayla` branch.
+- **Output Analysis** in `analysis/`
+- **Distributions for Modelling IAT and Stay Time** in `distribution/`
+- **Critical Care Unit Model (basic and prepared for warm-up** in `model/`
+- **Testing of the functionalities** in `test/`, 
 
 ## Repository structure
 
