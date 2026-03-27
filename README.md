@@ -53,7 +53,7 @@ A Conda environment definition named `hds_stoch`. It pins Python `3.11.13` and i
 This folder contains reusable distribution code and empirical data used by the CCU model.
 
 #### `distribution/bin.csv`
-Empirical input data used to build grouped continuous empirical distributions from the literature (Griffiths et al)
+Empirical input data used to build grouped continuous empirical distributions from the literature (Griffiths et al, 2010 )
 
 #### `distribution/distributions.py`
 Helper module defining custom distribution wrapper classes used by the simulation:
@@ -125,7 +125,6 @@ This folder contains automated tests and test data for the CCU model.
 Empty package marker file for the test package.
 
 #### `test/bin.csv`
-CSV test fixture, likely used as controlled input data for empirical-distribution-related testing.
 
 #### `test/pytest_ccu.py`
 Testing file for CCU functionalities
