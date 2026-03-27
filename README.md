@@ -34,9 +34,7 @@ Discrete-Event-Sim/
 - **Critical Care Unit Model (basic) and (prepared for warm-up)** in `model/`
 - **Testing of the functionalities** in `test/`, 
 
-### `analysis/`
-This folder contains outputs used to inspect model behaviour and present results.
-
+### `analysis/
 #### `analysis/output_analysis.ipynb`
 A Jupyter notebook to run the output analysis. 
 
@@ -51,7 +49,6 @@ A Conda environment definition named `hds_stoch`. It pins Python `3.11.13` and i
 ---
 
 ### `distribution/`
-This folder contains reusable distribution code and empirical data used by the CCU model.
 
 #### `distribution/bin.csv`
 .csv file from WebPlusDigitizer including bins and heights from the empirical distribution (IAT) from Griffiths et. al (2010) 
@@ -69,7 +66,6 @@ Notebook used to derive the empirical distribution stored in `bin.csv`.
 ---
 
 ### `model/`
-This is the core of the repository and contains the full CCU simulation model
 
 #### `model/CriticalCareUnit.py`
 Main simulation module. This file implements the CCU model itself using **SimPy** and includes scenario setup, patient behaviour, replication helpers, and warm-up analysis tools.
@@ -81,13 +77,12 @@ This was the first iteration of the model. If you do not wish to run the complex
 ---
 
 ### `test/`
-This folder contains a pytest file to test the basic logic within our model works. 
 
 #### `test/__init__.py`
 Empty package marker file for the test package.
 
 #### `test/bin.csv`
-To allow 
+Placed the bin.csv here to allow pyTest to run
 
 #### `test/pytest_ccu.py`
 Testing file for CCU functionalities
