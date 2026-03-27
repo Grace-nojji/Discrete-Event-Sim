@@ -4,11 +4,6 @@ A discrete-event simulation project for modelling patient flow and bed usage in 
 
 ![Flow](flow_image.JPG)
 
-- **Output Analysis** in `analysis/`
-- **Distributions for Modelling IAT and Stay Time** in `distribution/`
-- **Critical Care Unit Model (basic) and (prepared for warm-up)** in `model/`
-- **Testing of the functionalities** in `test/`, 
-
 ## Repository structure
 
 ```text
@@ -32,6 +27,11 @@ Discrete-Event-Sim/
 └── test.pdf
 ```
 ---
+
+- **Output Analysis** in `analysis/`
+- **Distributions for Modelling IAT and Stay Time** in `distribution/`
+- **Critical Care Unit Model (basic) and (prepared for warm-up)** in `model/`
+- **Testing of the functionalities** in `test/`, 
 
 ### `analysis/`
 This folder contains outputs used to inspect model behaviour and present results.
