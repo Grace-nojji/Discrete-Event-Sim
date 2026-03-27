@@ -2,9 +2,6 @@
 requires = ["setuptools"]
 build-backend = "setuptools.build_meta"
 
-[tool.black]
-line-length = 88
-
 [project]
 name = "DES"
 version = "0.1.0"
