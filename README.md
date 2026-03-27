@@ -1,6 +1,6 @@
 # Critical Care Unit DES Simulation
 
-A discrete-event simulation project for modelling patient flow and bed usage in a Critical Care Unit (CCU).
+A discrete-event simulation project for modelling patient flow and bed usage in a Critical Care Unit (CCU), inspired by Griffiths et. al (2010)
 
 ![Flow](flow_image.JPG)
 
