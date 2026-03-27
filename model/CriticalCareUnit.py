@@ -176,7 +176,8 @@ class CCU_Patients:
 
         args: Scenario
             scenario
-        group: Planned/Unplanned
+        group: any
+        Group or category the patient belongs to.
         """
         self.identifier = identifier
         self.env = env
@@ -322,21 +323,21 @@ class MonitoredPatient(CCU_Patients):
 
     def patient_gets_cancelled(self):
         super().patient_gets_cancelled()
-        # call the patients operator_service_complete method to execute logic
+        # call the patients gets_cancelled() method to notify cancellation
         super().patient_gets_cancelled()
 
         # passes the patient (self) and a message
         self.notify_observers(self, "patient_gets_cancelled")
 
     def patient_gets_admitted(self):
-        # call the patients operator_service_complete method to execute logic
+        # call the patient_gets_admitted method to notify admission
         super().patient_gets_admitted()
 
         # passes the patient (self) and a message
         self.notify_observers(self, "patient_gets_admitted")
 
     def patient_gets_discharged(self):
-        # call the patients nurse_service_complete method to execute logic
+        # call the patient_gets_discharged method to notify discharge
         super().patient_gets_discharged()
 
         # passes the patient (self) and a message
@@ -348,7 +349,7 @@ class CCU_model:
     Simulation model for managing admissions and bed usage in a CCU.
 
     This class sets up and runs a SimPy-based simulation environment for a
-    Coronary Care Unit (CCU). It initialises the simulation resources,
+    Critical Care Unit (CCU). It initialises the simulation resources,
     configures the arrival process, and tracks key operational performance
     metrics such as bed waiting time, bed utilisation, queue length,
     admissions, discharges, and cancellation.
@@ -614,7 +615,8 @@ def multiple_replications(
     Params:
     ------
     scenario: Scenario
-        Parameters/arguments to configurethe model
+        Parameters/arguments to configure
+        the model
 
     rc_period: float, optional (default=DEFAULT_RESULTS_COLLECTION_PERIOD)
         results collection period.
