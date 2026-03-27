@@ -65,11 +65,12 @@ Factory/helper for creating an empirical distribution from `bin.csv`. The module
 
 #### `distribution/empirical_freq.ipynb`
 Notebook used to derive the empirical distribution stored in `bin.csv`.
+
+ 
 ---
 
 ### `model/`
-This is the core of the repository and contains the full CCU simulation model.
-
+This is the core of the repository and contains the full CCU simulation model
 
 #### `model/CriticalCareUnit.py`
 Main simulation module. This file implements the CCU model itself using **SimPy** and includes scenario setup, patient behaviour, replication helpers, and warm-up analysis tools.
