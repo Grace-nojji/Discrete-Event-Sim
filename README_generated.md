@@ -1,10 +1,10 @@
-# Discrete-Event-Sim
+# Critical Care Unit DES Simulation
 
 A discrete-event simulation project for modelling patient flow and bed usage in a Critical Care Unit (CCU).
 
 - **Output Analysis** in `analysis/`
 - **Distributions for Modelling IAT and Stay Time** in `distribution/`
-- **Critical Care Unit Model (basic and prepared for warm-up** in `model/`
+- **Critical Care Unit Model (basic) and (prepared for warm-up)** in `model/`
 - **Testing of the functionalities** in `test/`, 
 
 ## Repository structure
@@ -20,17 +20,6 @@ Discrete-Event-Sim/
 ├── setup.py
 └── test.pdf
 ```
-
-## File-by-file guide
-
-### Root
-
-#### `setup.py`
-Project packaging/config metadata. The file defines a setuptools build backend and identifies the package as `DES` version `0.1.0`.
-
-#### `test.pdf`
-A PDF to guide how the testing file should be ran and an explanation to what tests are being ran. 
-
 ---
 
 ### `analysis/`
