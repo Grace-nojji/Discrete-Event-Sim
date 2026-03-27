@@ -28,12 +28,6 @@ Discrete-Event-Sim/
 └── test.pdf
 ```
 ---
-
-- **Output Analysis** in `analysis/`
-- **Distributions for Modelling IAT and Stay Time** in `distribution/`
-- **Critical Care Unit Model (basic) and (prepared for warm-up)** in `model/`
-- **Testing of the functionalities** in `test/`, 
-
 ### `analysis/
 #### `analysis/output_analysis.ipynb`
 A Jupyter notebook to run the output analysis. 
