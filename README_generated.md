@@ -12,10 +12,19 @@ A discrete-event simulation project for modelling patient flow and bed usage in 
 ```text
 Discrete-Event-Sim/
 ├── analysis/
+ ├── output_analysis.ipynb
 ├── binder/
+ ├── environment.yml
 ├── distribution/
+ ├── bin.csv
+ ├── distributions.py
+ ├── empirirical.py
+ ├── empirical_freq.ipynb
 ├── model/
+ ├── CriticalCareUnit.py
+ ├── basic_model.ipynb
 ├── test/
+ ├── pytest_ccu.py
 ├── README.md
 ├── setup.py
 └── test.pdf
