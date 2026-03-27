@@ -8,6 +8,7 @@ A discrete-event simulation project for modelling patient flow and bed usage in 
 
 ```text
 Discrete-Event-Sim/
+├── Group Portfolio/
 ├── analysis/
  ├── output_analysis.ipynb
 ├── binder/
