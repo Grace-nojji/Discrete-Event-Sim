@@ -24,7 +24,7 @@ Discrete-Event-Sim/
 ├── test/
  ├── pytest_ccu.py
 ├── README.md
-├── setup.py
+├── final_report.pdf
 └── test.pdf
 ```
 ---
